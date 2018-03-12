@@ -6,3 +6,73 @@ h1 {
 }
 
 */
+* {
+  	margin: 0;
+  	padding: 0;
+}
+@font-face {
+  	font-family: hobo;
+  	src: url('../fonts/hobostdmedium.ttf');
+}
+/* Navigation */
+.navigation {
+  	background-color: #f09773;
+  	height: 80px;
+}
+img {
+  	margin: 15px 100px;
+}
+ul {
+  	float: right;
+  	font-family: hobo;
+  	font-size: 18px;
+	color: #f7f2d5;
+	margin-top: 20px;
+}
+ul li {
+	display: inline-block;
+	padding: 15px 50px;
+}
+a {
+	color: #f7f2d5;
+	text-decoration: none;
+}
+/* Middle Section */
+body {
+	background-color: #f7f2d5;
+}
+.header {
+	background-color: #f7f2d5;
+	font-family: hobo;
+	text-align: left;
+	color: #8cad75;
+	font-weight: 50px;
+}
+.avocado {
+	float: left;
+}
+p {
+	margin: 130px 200px;
+	font-size: 50px;
+	text-align: left;
+}
+.header h2 > span {
+	color: #f09773;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 35px;
+}
+/* Footer */
+.footer {
+	background-color: #8cad75;
+	text-align: center;
+	height: 100px;
+}
+#socialIcon {
+	color: #f7f2d5;
+	font-size: 35px;
+	
+}
